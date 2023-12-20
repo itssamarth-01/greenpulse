@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GreenPulse - Save the Environment</title>
+</head>
+<body>
+  <nav class="navbar">
+      <a href="#" class="logo">GreenPulse</a>
+      <ul class="nav-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#tips">Environmental Tips</a></li>
+          <li><a href="#action">Take Action</a></li>
+      </ul>
+      <div class="nav-action">
+          <a href="#join" class="action-button">Join Now</a>
+      </div>
+  </nav>
+
+  <section class="hero">
+      <div class="hero-content">
+          <h1>Join the Green Revolution</h1>
+          <p>Empowering individuals to create a sustainable future</p>
+          <a href="#action" class="cta-button">Take Action Now</a>
+      </div>
+  </section>
+
+  <section id="about" class="main-section">
+      <h2>About Us</h2>
+      <p>Welcome to GreenPulse – Your Gateway to a Greener Future!</p>
+      <p>At GreenPulse, we believe in the power of collective action to create a sustainable and thriving world. Our mission is to empower individuals with the knowledge and tools to make a positive impact on the environment. By fostering a community of like-minded individuals, we aim to drive change and inspire a global movement towards sustainability.</p>
+  </section>
+
+  <section id="tips" class="tips-section">
+      <h2>Environmental Tips</h2>
+      <ul>
+          <li><strong>1. Embrace the 3 Rs:</strong> Reduce, Reuse, Recycle</li>
+          <li><strong>2. Conserve Energy:</strong> Simple acts like turning off lights and unplugging electronics when not in use can significantly reduce your energy consumption. Opt for energy-efficient appliances to further contribute to conservation.</li>
+          <li><strong>3. Plant Trees:</strong> Trees are the lungs of our planet. Participate in tree-planting initiatives to contribute to reforestation efforts and combat deforestation.</li>
+          <li><strong>4. Use Eco-friendly Products:</strong> Make conscious choices when purchasing products. Choose items with minimal packaging, made from recycled materials, and support businesses with eco-friendly practices.</li>
+          <li><strong>5. Save Water:</strong> Conserve water by fixing leaks, using water-efficient appliances, and being mindful of your water usage. Small changes can lead to significant water savings.</li>
+      </ul>
+  </section>
+
+  <section id="action" class="action-section">
+      <h2>Take Action</h2>
+      <ul>
+          <li><strong>Community Events:</strong> Participate in local community events focused on environmental conservation. Whether it's a beach cleanup, tree planting, or educational workshops, your involvement matters.</li>
+          <li><strong>Eco-friendly Living:</strong> Explore sustainable living practices and integrate them into your daily routine. From eco-friendly home products to sustainable transportation options, discover ways to reduce your environmental impact.</li>
+          <li><strong>Spread Awareness:</strong> Be a champion for the environment! Share your knowledge, engage with others, and spread the word about the importance of sustainability. Together, we can create a ripple effect of positive change.</li>
+      </ul>
+  </section>
+
+  <section class="gallery-parallax">
+      <h2>Gallery</h2>
+      <div class="image-gallery">
+        <img src="image1.jpg" alt="Gallery Image 1">
+        <img src="image2.jpg" alt="Gallery Image 2">
+        <img src="image3.jpg" alt="Gallery Image 3">
+    </div>
+  </section>
+
+  <section id="join" class="join-section">
+      <h2>Join GreenPulse Today</h2>
+      <p>Ready to embark on your green journey? Join GreenPulse today and become a part of a community dedicated to preserving our planet for future generations. Together, we can create a greener, cleaner, and more sustainable world.</p>
+      <p>Remember, every small action counts, and together, we can make a significant difference. Join us in the GreenPulse movement and let's create a positive impact on the environment, one step at a time.</p>
+  </section>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2023 GreenPulse. All rights reserved. Contact us at <a href="mailto:info@greenpulse.com">info@greenpulse.com</a></p>
+        <div class="social-links">
+            Follow us on:
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+<script>
+  window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      const logo = document.querySelector('.logo');
+
+      if (window.scrollY > 50) {
+          navbar.classList.add('navbar-scrolled');
+          logo.classList.add('logo-scrolled');
+      } else {
+          navbar.classList.remove('navbar-scrolled');
+          logo.classList.remove('logo-scrolled');
+      }
+  });
+</script>
+
+</html>
